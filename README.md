@@ -17,8 +17,8 @@ Since I found I can use shell script to get a random number, I don't need to use
 Here's the code
 
 ```sh
-# Since I only have 9 pictures now, we mod 9.
-R=$[$RANDOM % 9]
+# Since I only have 132 pictures now, we mod 132.
+R=$[$RANDOM % 132]
 curl -s "https://raw.githubusercontent.com/Griiid/ascii-art-collection/master/arts/$R.txt"
 ```
 
@@ -27,8 +27,8 @@ curl -s "https://raw.githubusercontent.com/Griiid/ascii-art-collection/master/ar
 You can use [lolcat](https://github.com/busyloop/lolcat) to make text colorful.
 
 ```sh
-# Since I only have 9 pictures now, we mod 9.
-R=$[$RANDOM % 9]
+# Since I only have 132 pictures now, we mod 132.
+R=$[$RANDOM % 132]
 curl -s "https://raw.githubusercontent.com/Griiid/ascii-art-collection/master/arts/$R.txt" | lolcat
 ```
 
