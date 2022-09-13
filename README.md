@@ -12,6 +12,8 @@ I found this good repo contains ascii art text files and a python code which ran
 
 ## Add to bashrc
 
+Install [lolcat](https://github.com/busyloop/lolcat) before use `init.sh`
+
 You can execute `init.sh` after clone this repo:
 
 ```sh
