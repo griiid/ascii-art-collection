@@ -10,6 +10,14 @@ https://github.com/DanCRichards/ASCII-Art-Splash-Screen
 
 I found this good repo contains ascii art text files and a python code which random get a ascii art.
 
+## Add to bashrc
+
+You can execute `init.sh` after clone this repo:
+
+```sh
+./init.sh
+```
+
 ## Shell script tutorial
 
 Since I found I can use shell script to get a random number, I don't need to use python code anymore.
